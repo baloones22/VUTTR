@@ -1,3 +1,0 @@
-/* Onde vai ficar as migrations
-   Iremos determinar as tabelas do banco de dados
-*/
