@@ -1,7 +1,17 @@
 # VUTTR
-Very Userful Tools to Remember. A aplicação é um simples repositório para gerenciar ferramentas 
+### Very Userful Tools to Remember. 
+A aplicação é um simples repositório para gerenciar ferramentas 
 com seus respectivos nomes, links, descrições e tags.
-Instruções
+### Principais Plugins Utilizados
++ node
++ yarn
++ express
++ Sequelize
++ Docker
+
+
+
+## Instruções
 Clone git
 yarn install
 sudo docker run -p 5432:5432 -e "POSTGRES_PASSWORD=postgres" -v (!pasta do banco):/var/lib/postgresql/data -d postgres
