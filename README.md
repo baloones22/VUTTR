@@ -25,15 +25,15 @@ Executar:
 ```js
 yarn dev
 ```
-Clone git
-
 (caso de conflito com o postgres)
 ```js
 sudo ss -nlp |grep 5432
 sudo kill (id).
 ```
+```js
 yarn sequelize db:migrate
 yarn dev
+```
 # Funções
 Com o Insomnia use 
 ```js
