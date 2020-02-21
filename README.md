@@ -41,5 +41,5 @@ get http://localhost:3000/tools == index
 post http://localhost:3000/tools == store
 get http://localhost:3000/tools/:id == show id
 delete http://localhost:3000/tools/:id == delete id
-get http://localhost:3000/tools?tag=toolsTag = show toolsTag
+get http://localhost:3000/tools?tag=toolsTag = show toolsTag (não ta funfando :/ )
 ```
