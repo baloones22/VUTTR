@@ -34,9 +34,12 @@ sudo kill (id).
 ```
 yarn sequelize db:migrate
 yarn dev
+# Funções
 Com o Insomnia use 
+```js
 get http://localhost:3000/tools == index
 post http://localhost:3000/tools == store
 get http://localhost:3000/tools/:id == show id
 delete http://localhost:3000/tools/:id == delete id
 get http://localhost:3000/tools?tag=toolsTag = show toolsTag
+```
