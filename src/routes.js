@@ -1,9 +1,12 @@
 const { Router } = require('express');
-
 const UserController = require('./app/Controllers/UserController');
-
+const ToolsController = require('./app/Controllers/ToolsController');
 const routes = new Router();
-
-routes.post('/users', UserController.store);
-
+//routes.get('/users', UserController.index);
+//routes.post('/users', UserController.store);
+routes.get('/tools', ToolsController.index);
+routes.post('/tools', ToolsController.store);
+routes.delete('/tools/:toolsId', ToolsController.delete);
+routes.get('/tools/:toolsId', ToolsController.show);
+routes.get('/tools?tag=toolsTag', ToolsController.findTag);
 module.exports = routes;
