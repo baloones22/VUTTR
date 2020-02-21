@@ -32,7 +32,6 @@ sudo kill (id).
 ```
 ```js
 yarn sequelize db:migrate
-yarn dev
 ```
 # Funções
 Com o Insomnia use 
