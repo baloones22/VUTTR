@@ -13,7 +13,20 @@ com seus respectivos nomes, links, descrições e tags.
 
 ## Instruções
 Clone git
+
+Antes de executar a primeira vez:
+```js
 yarn install
+```
+```js
+sudo docker run -p 5432:5432 -e "POSTGRES_PASSWORD=postgres" -v (!pasta do banco):/var/lib/postgresql/data -d postgres
+```
+Executar:
+```js
+yarn dev
+```
+Clone git
+
 sudo docker run -p 5432:5432 -e "POSTGRES_PASSWORD=postgres" -v (!pasta do banco):/var/lib/postgresql/data -d postgres
 caso de conflito com o postgres
 sudo ss -nlp |grep 5432
