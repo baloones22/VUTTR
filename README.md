@@ -27,10 +27,11 @@ yarn dev
 ```
 Clone git
 
-sudo docker run -p 5432:5432 -e "POSTGRES_PASSWORD=postgres" -v (!pasta do banco):/var/lib/postgresql/data -d postgres
-caso de conflito com o postgres
+(caso de conflito com o postgres)
+```js
 sudo ss -nlp |grep 5432
 sudo kill (id).
+```
 yarn sequelize db:migrate
 yarn dev
 Com o Insomnia use 
